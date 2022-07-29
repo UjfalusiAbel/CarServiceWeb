@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import 'semantic-ui-css/semantic.min.css';
-import mainCarImage from '../assets/Main/mainPageCar.png';
+import mainCarImage from '../../assets/Main/mainPageCar.png';
 import { List, Button, Form, Grid, Header, Image, Segment, Menu, Icon } from "semantic-ui-react";
 
 export default function MainScreen() {

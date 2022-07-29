@@ -1,5 +1,6 @@
-import LoginScreen from "../Components/LoginScreen";
-import RegisterScreen from "../Components/RegisterScreen";
+import LoginScreen from "../Components/Pages/LoginScreen";
+import RegisterScreen from "../Components/Pages/RegisterScreen"
+import SearchServiceScreen from "../Components/Pages/SearchServiceScreen";
 
 interface IRoute{
     path:string;
@@ -17,7 +18,7 @@ const routes:IRoute[] = [
     },
     {
         path:"/auth/login",
-        component:LoginScreen,
+        component:SearchServiceScreen,
         title:"Registrare",
         needsAuth:false
     }
